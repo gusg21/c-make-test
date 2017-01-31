@@ -1,7 +1,5 @@
 language: c
 sudo: false # only for faster builds
-compiler:
-  - clang
-  - gcc
 script:
-  - make
+  - gcc main.c
+  - ./a.out
